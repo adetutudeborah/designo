@@ -24,10 +24,14 @@ Users should be able to:
   - The `Email Address` is not formatted correctly should show "Please use a valid email address"
 - **Bonus**: View actual locations on the locations page maps (we recommend [Leaflet JS](https://leafletjs.com/) for this)
 
+# Screenshot
+
+![](./public/preview.jpg)
+
 # Links
 
-- [Solution URL]()
-- [Live site URL]()
+- [Solution URL](https://github.com/adetutudeborah/designo)
+- [Live site URL](https://designo-adetutudeborah.vercel.app/)
 
 # My process
 
@@ -66,7 +70,7 @@ npm run dev
 - Open `http://localhost:5173/` in your browser to view the app
 
 # Deployment
-The Designo agency website has been deployed on `Vercel`, and it can be accessed at the following URL: 
+The Designo agency website has been deployed on `Vercel`, and it can be accessed at the following URL: https://designo-adetutudeborah.vercel.app/
 
 
 # Author
