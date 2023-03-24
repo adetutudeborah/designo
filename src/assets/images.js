@@ -1,9 +1,9 @@
-import img from "./img.png";
-import logo from "./logo.png";
+import logo from "./brandlogo.png";
+import brandname from "./designo.png";
 
 const images = {
-  img,
   logo,
+  brandname,
 };
 
 export default images;
