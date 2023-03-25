@@ -1,0 +1,202 @@
+.container {
+    margin: 0 15rem;
+    width: 1200px;
+  }
+
+  .header {
+    margin-top: 6rem;
+    background-color: var(--primary-color);
+    height: 100vh;
+    color: #fff;
+    border-radius: 15px;
+  }
+
+  .headercontainer {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .headercontainerinner {
+    width: 50%;
+    padding: 10rem 0rem 0 7rem;
+  }
+
+  .headercontainerimg {
+    width: 50%;
+  }
+
+  .headerimg{
+    margin-left: 5rem;
+  }
+
+  .headertext {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+
+  .headersubtext {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 4rem;
+    font-weight: 300;
+  }
+
+  .headerbtn:link,
+  .headerbtn:visited { 
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 20px;
+    border-radius: 9px;
+    text-transform: uppercase;
+  }
+
+/* Project section */
+
+  .projectcontainer {
+    height: 100vh;
+    margin: 10rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+
+  .designone{
+      background-image:
+      linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+          ),
+      url('/src/assets/image-web-design-large.jpg');
+      background-size: cover;
+      height: 100%;
+      grid-column: 1;
+      grid-row: 1 / -1;
+      border-radius: 15px;
+  }
+
+  .designtwo{
+      background-image:
+      linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+          ),
+      url('/src/assets/image-app-design.jpg');
+      background-size: cover;
+      grid-column: 2;
+      grid-row: 1;
+      border-radius: 15px;
+  }
+
+  .designthree{
+    background-image:
+    linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+          ),
+    url('/src/assets/image-graphic-design.jpg');
+    background-size: cover;
+    white-space: nowrap;
+    grid-column: 2;
+    grid-row: 2;
+    border-radius: 15px;
+  }
+
+  .designproject{
+    position: relative;
+  }
+
+  .designproject:hover{
+    background: var(--primary-color);
+     
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ); */
+  }
+
+  .designimg{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .designcategory{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--white-color);
+  }
+
+  .viewprojects{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;    
+    letter-spacing: 5px;
+    text-transform: uppercase;  
+    color: var(--white-color);
+    text-align: center;
+  }
+
+  .designicon{
+    color: var(--primary-color);
+    font-weight: bolder;
+  }
+
+
+/* Features section */
+
+.featurescontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.eachfeature{
+  display: flex;
+  flex-direction: column;
+}
+
+.featureimg{
+   margin: 0 auto;
+   max-width: 100%;
+   height: auto;
+}
+
+.featuretext{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 4px;
+    padding: 3rem 0 2rem;
+    text-align: center;
+}
+
+.featuresubtext{
+    padding: 0 2rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}

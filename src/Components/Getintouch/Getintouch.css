@@ -1,0 +1,50 @@
+.touchcontainer{
+    margin: 6rem 0;
+    padding: 6rem 7rem;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+}
+
+.touchinnercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.touchheader{
+   width: 40%;
+}
+
+.touchtext{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.touchsubtext{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.touchbtn:link,
+.touchbtn:visited { 
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--white-color);
+  color: var(--black-color);
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 20px;
+  border-radius: 9px;
+  text-transform: uppercase;
+}
+
+.touchbtn:hover{
+    color: var(--white-color);
+    background: var(--secondary-color);
+}

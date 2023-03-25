@@ -9,7 +9,8 @@ import images from "../../assets/images";
 
 function Navigationbar() {
       return (
-        <Navbar expand="lg"  className="navbar-main" fixed="top">
+      <div className='navcontainer'>
+        <Navbar expand="lg"  className="navbar-main">
           <Container>
             <Navbar.Brand href="/"> 
               <img src={images.logo} alt="logo" className="navlogo"/>
@@ -24,6 +25,7 @@ function Navigationbar() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
+      </div>  
       );
     };
 

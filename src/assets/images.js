@@ -1,9 +1,21 @@
 import logo from "./brandlogo.png";
-import brandname from "./designo.png";
+import phone from './image-hero-phone.png';
+import passionateimg from './passionate-img.png';
+import resourcefulimg from './resourceful-img.png';
+import friendlyimg from './friendly-img.png';
+import webdesignimg from './image-web-design-large.jpg';
+import appdesignimg from './image-app-design.jpg';
+import graphicdesignimg from './image-graphic-design.jpg';
 
 const images = {
   logo,
-  brandname,
+  phone,
+  passionateimg,
+  resourcefulimg,
+  friendlyimg,
+  webdesignimg,
+  appdesignimg,
+  graphicdesignimg,
 };
 
 export default images;
