@@ -3,7 +3,8 @@ import './Getintouch.css';
 
 function Getintouch() { 
     return(
-        <div className='touchcontainer'>
+     <div className='touchsection'>   
+        <div className='touchcontainer'> 
 
             <div className='touchinnercontainer'>
                 <div className='touchheader'>
@@ -17,6 +18,7 @@ function Getintouch() {
             </div>
         
        </div>
+    </div>    
     )
 }
 

@@ -6,6 +6,7 @@ import friendlyimg from './friendly-img.png';
 import webdesignimg from './image-web-design-large.jpg';
 import appdesignimg from './image-app-design.jpg';
 import graphicdesignimg from './image-graphic-design.jpg';
+import whitedesignologo from './white-designo-logo.png';
 
 const images = {
   logo,
@@ -16,6 +17,7 @@ const images = {
   webdesignimg,
   appdesignimg,
   graphicdesignimg,
+  whitedesignologo,
 };
 
 export default images;

@@ -59,6 +59,11 @@
     text-transform: uppercase;
   }
 
+  .headerbtn:hover{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+  }
+
 /* Project section */
 
   .projectcontainer {
