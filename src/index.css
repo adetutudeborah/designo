@@ -7,6 +7,7 @@
 :root {
   --primary-color: hsl(11, 73%, 66%);  /* Peach */
   --secondary-color: hsl(11, 100%, 80%); /* Light Peach */
+  --tertiary-color: #FDF3F0;
   --black-color: hsl(270, 3%, 11%);   
   --white-color: hsl(0, 0%, 100%);  
   --dark-grey: hsl(264, 5%, 20%);

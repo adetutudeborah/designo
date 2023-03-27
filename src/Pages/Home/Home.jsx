@@ -1,7 +1,9 @@
 import React from 'react';
+// import { Route, Routes, Link } from "react-router-dom"
 import './Home.css';
 import images from "../../assets/images";
-import Getintouch from '../../Components/Getintouch/Getintouch';
+import Getintouch from '../../Components/Getintouch/Getintouch'; 
+import { Link } from 'react-router-dom';
 
 function Home() {
     return(
@@ -15,7 +17,9 @@ function Home() {
                     <h1 className='headertext'>Award-winning custom designs and digital branding solutions</h1>
                     <p className='headersubtext'>With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, 
                     and engaging brand experiences. Find out more about our services.</p>
-                    <a href='' className='headerbtn'>Learn more</a>         
+                      <Link to="/about">
+                        <a href='' className='headerbtn'>Learn more</a> 
+                      </Link>        
                 </div>
 
                  <div className='headercontainerimg'>
@@ -30,30 +34,33 @@ function Home() {
           <div className='projectcontainer'>
 
               <div className='designproject designone'>
-                {/* <img src={images.webdesignimg} alt='web-design-img' className='designimg'/> */}
 
-                <div className='centered'>
+                <div className='centered'>           
                     <p className='designcategory'>Web design</p>
+                  <Link to="/webdesign">
                     <p className='viewprojects'>View projects <span className='designicon'>&rsaquo;</span></p>
+                  </Link>  
                 </div>
               </div>
 
               <div className='designproject designtwo'>
-                {/* <img src={images.appdesignimg} alt='app-design-img' className='designimg'/> */}
                 
                 <div className='centered'>
                     <p className='designcategory'>App design</p>
+                   <Link to="/appdesign">
                     <p className='viewprojects'>View projects <span className='designicon'>&rsaquo;</span></p>
+                   </Link>  
                 </div>
             
               </div>
 
               <div className='designproject designthree'>
-                {/* <img src={images.graphicdesignimg} alt='graphic-design-img' className='designimg'/> */}
 
                 <div className='centered'>
                     <p className='designcategory'>Graphic design</p>
+                  <Link to="/graphicdesign">
                     <p className='viewprojects'>View projects <span className='designicon'>&rsaquo;</span></p>
+                  </Link>  
                 </div>
               
               </div>

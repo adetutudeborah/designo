@@ -1,9 +1,10 @@
 import React from 'react';
-import './Getintouch.css';
+import { Link } from 'react-router-dom';
+import './Getintouch.css'; 
 
 function Getintouch() { 
     return(
-     <div className='touchsection'>   
+     <div className='touchsection'>    
         <div className='touchcontainer'> 
 
             <div className='touchinnercontainer'>
@@ -13,10 +14,11 @@ function Getintouch() {
                 </div>
 
                 <div>
+                  <Link to="/contact"> 
                     <a href='' className='touchbtn'> Get in touch</a> 
+                  </Link>  
                 </div>
             </div>
-        
        </div>
     </div>    
     )

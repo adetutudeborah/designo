@@ -1,0 +1,140 @@
+/* Header */
+
+.designheader{
+    margin: 6rem 0;
+    padding: 5rem 7rem;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    color: var(--white-color);
+}
+
+.designtext{
+    font-size: 3rem;
+}
+
+.designsubtext{
+    font-size: 1rem;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+/* Projects Section */
+
+.designprojects{
+    margin: 0rem 0;
+}
+
+.projectimg{
+    border-radius: 10px 10px 0 0;
+}
+
+.projectinfo{
+    background-color: var(--tertiary-color);
+    border-radius: 0 0 10px 10px;
+    padding: 1rem 5rem;
+}
+
+.projectinfo:hover{
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.projectinfo:hover h4{
+    color: var(--white-color);
+}
+
+.projectinfo:hover p{
+    color: var(--white-color);
+}
+
+.projecttitle{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1rem;
+}
+
+.projectdecription{
+    font-size: 1rem;
+    color: #333136;
+}
+
+/* .projecttitle:hover,
+.projectdecription:hover {
+     color: var(--white-color);
+} */
+
+/* Other Project section */
+
+.otherprojectcontainer {
+    margin: 10rem auto;
+  }
+
+  .otherproject{
+    position: relative;
+    height: 50vh;
+  }
+
+  .otherprojectinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .appproject{
+    background-image:
+    linear-gradient(
+          rgba(34, 34, 34, 0.6),
+          rgba(34, 34, 34, 0.6)
+        ),
+    url('/src/assets/image-app-design.jpg');
+    background-size: cover;
+    border-radius: 15px;
+    width: 47% !important;
+    margin: 1rem;
+}
+
+.graphicproject{
+  background-image:
+  linear-gradient(
+          rgba(34, 34, 34, 0.6),
+          rgba(34, 34, 34, 0.6)
+        ),
+  url('/src/assets/image-graphic-design.jpg');
+  background-size: cover;
+  border-radius: 15px;
+  white-space: nowrap;
+  width: 47% !important;
+  margin: 1rem;
+  margin-right: 0;
+}
+
+  .projectcategory{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--white-color);
+  }
+
+  .viewproject{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;    
+    letter-spacing: 5px;
+    text-transform: uppercase;  
+    color: var(--white-color);
+    text-align: center;
+  }
+
+  .viewproject:hover{
+    color: var(--primary-color);
+  }
+
+  .projecticon{
+    color: var(--primary-color);
+    font-weight: bolder;
+  }

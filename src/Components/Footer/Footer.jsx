@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 import images from "../../assets/images";
 
@@ -8,13 +9,21 @@ function Footer() {
 
            <div className='brandcontainer'>
               <div>
+              <Link to="/">
                  <img src={images.whitedesignologo} alt="logo" className="navlogo"/>
-              </div>
+               </Link>  
+              </div> 
  
               <div className='brandlinks'>
-                  <span className='brandlink'>Our company</span>
-                  <span className='brandlink'>Locations</span>
-                  <span className='brandlink'>Contact</span>
+                  <Link to="/about">
+                    <span className='brandlink'>Our company</span>
+                  </Link>  
+                  <Link to="/locations">
+                    <span className='brandlink'>Locations</span>
+                  </Link>  
+                  <Link to="/contact">
+                    <span className='brandlink'>Contact</span>
+                  </Link>  
               </div>
 
            </div>
