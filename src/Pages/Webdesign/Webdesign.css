@@ -59,34 +59,29 @@
     color: #333136;
 }
 
-/* .projecttitle:hover,
-.projectdecription:hover {
-     color: var(--white-color);
-} */
-
-/* Other Project section */
+/* Other Projects section */
 
 .otherprojectcontainer {
     margin: 10rem auto;
   }
 
-  .otherproject{
+.otherproject{
     position: relative;
     height: 50vh;
-  }
+}
 
-  .otherprojectinner {
+.otherprojectinner {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .appproject{
+.appproject{
     background-image:
     linear-gradient(
-          rgba(34, 34, 34, 0.6),
-          rgba(34, 34, 34, 0.6)
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
         ),
     url('/src/assets/image-app-design.jpg');
     background-size: cover;
@@ -96,21 +91,21 @@
 }
 
 .graphicproject{
-  background-image:
-  linear-gradient(
-          rgba(34, 34, 34, 0.6),
-          rgba(34, 34, 34, 0.6)
-        ),
-  url('/src/assets/image-graphic-design.jpg');
-  background-size: cover;
-  border-radius: 15px;
-  white-space: nowrap;
-  width: 47% !important;
-  margin: 1rem;
-  margin-right: 0;
+    background-image:
+    linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+            ),
+    url('/src/assets/image-graphic-design.jpg');
+    background-size: cover;
+    border-radius: 15px;
+    white-space: nowrap;
+    width: 47% !important;
+    margin: 1rem;
+    margin-right: 0;
 }
 
-  .projectcategory{
+.projectcategory{
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -118,9 +113,9 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--white-color);
-  }
+}
 
-  .viewproject{
+.viewproject{
     font-style: normal;
     font-weight: 500;
     font-size: 15px;    
@@ -128,13 +123,13 @@
     text-transform: uppercase;  
     color: var(--white-color);
     text-align: center;
-  }
+}
 
-  .viewproject:hover{
+.viewproject:hover{
     color: var(--primary-color);
-  }
+}
 
-  .projecticon{
+.projecticon{
     color: var(--primary-color);
     font-weight: bolder;
-  }
+}
