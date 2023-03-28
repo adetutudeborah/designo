@@ -1,0 +1,62 @@
+.locationpagecontainer{
+   margin: 5rem 0 8rem;
+}
+
+.locationinfo,
+.australiainfo{
+    background-color: var(--tertiary-color);
+    border-radius: 15px;
+    padding: 5rem 8rem;
+}
+
+.locationname{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+.companylocation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.address p{
+    margin-bottom: 0.5rem;
+}
+
+.contact p{
+    margin-bottom: 0.5rem;
+}
+
+p:nth-child(1) {
+    font-weight: bold;
+  }
+
+.locationinnercontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.locationinfo{
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.locationmap{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+/* Australia layout */
+
+.australiainfo{
+    grid-column: 2 / -1;
+    grid-row: 1;
+}
+
+.australiamap{
+    grid-column: 1;
+    grid-row: 1;
+}
