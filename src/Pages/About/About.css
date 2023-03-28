@@ -1,0 +1,127 @@
+/* About Hero Section */
+
+.aboutherocontainer{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    color: var(--white-color);
+    height: 100%;
+    width: 100%;
+    max-height: 480px;
+}
+
+.abouthero{
+    padding: 8rem;
+    background-color: var(--primary-color);
+    border-radius: 15px 0 0 15px;
+}
+
+.aboutherotext{
+    font-size: 3.5rem;
+}
+
+.aboutherosubtext{
+    font-size: 1rem;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+.aboutheroimg{
+    border-radius: 0 15px 15px 0;
+
+}
+
+/* About Team Section */
+
+.aboutteamcontainer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-height: 640px;
+}
+
+.aboutteamheader{
+    padding: 8rem;
+    background-color: var(--tertiary-color);
+    border-radius: 0 15px 15px 0;
+}
+
+.aboutteamtext{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.aboutteamdescription{
+    color: var(--black-color);
+    font-size: 1rem;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+.aboutteamimg{
+    border-radius: 15px 0 0 15px;
+}
+
+/* About Location Section */
+
+.aboutlocationcontainer{
+    margin: 10rem auto;
+}
+
+.aboutlocationname{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+}
+
+.seelocationbtn:link,
+.seelocationbtn:visited { 
+    font-size: 0.9rem;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.7rem;
+    border-radius: 6px;
+    text-transform: uppercase;
+  }
+
+  .seelocationbtn:hover{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    cursor: pointer;
+  }
+
+  /* Company value section */
+
+.companyvaluecontainer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-height: 640px;
+}
+
+.companyvalueheader{
+    padding: 8rem;
+    background-color: var(--tertiary-color);
+    border-radius: 15px 0 0 15px;
+}
+
+.companyvaluetext{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.companyvaluesubtext{
+    color: var(--black-color);
+    font-size: 1rem;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+.companyvalueimg{
+    border-radius: 0 15px 15px 0;
+}
