@@ -93,3 +93,9 @@ textarea::placeholder{
     border-radius: 8px;
     text-transform: uppercase;
 }
+
+.contactbtn:hover{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
