@@ -39,6 +39,7 @@ input[type=email]
    box-sizing: border-box;
    border-radius: 0;
    background-color: var(--primary-color);
+   color: var(--white-color);
    border: solid transparent;
    outline: none;
    border-bottom: 1px solid #ffff; 
@@ -46,12 +47,12 @@ input[type=email]
 
 input[type=text]:focus,
 input[type=email]:focus {
-    background-color: var(--primary-color) !important;
+    background-color: var(--primary-color);
     color: var(--white-color);
     border-radius: 0;
     border: solid transparent;
     outline: none;
-    border-bottom: 1px solid #ffff; 
+    border-bottom: 3px solid #ffff; 
   }
 
 input::placeholder{
@@ -71,6 +72,10 @@ textarea{
     border-bottom: 1px solid #ffff; 
 }
 
+textarea:focus{
+    border-bottom: 3px solid #ffff; 
+}
+
 textarea::placeholder{
     color: var(--white-color) !important;
     opacity: 0.5;
@@ -80,8 +85,7 @@ textarea::placeholder{
    text-align: right;
 }
 
-.contactbtn:link,
-.contactbtn:visited { 
+.contactbtn{ 
     font-family: var(  --default-font-family);
     font-size: 1rem;
     font-weight: 500;
@@ -92,6 +96,8 @@ textarea::placeholder{
     padding: 1rem 3rem;
     border-radius: 8px;
     text-transform: uppercase;
+    outline: none;
+    border: solid transparent;
 }
 
 .contactbtn:hover{

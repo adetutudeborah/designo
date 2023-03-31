@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'; 
+import {LinkContainer} from 'react-router-bootstrap'
 import './Navigationbar.css';
 
 import Container from 'react-bootstrap/Container';
@@ -19,9 +19,19 @@ function Navigationbar() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="justify-content-end">
               <Nav className="ms-auto nav-gap">
+
+               <LinkContainer to="/about">
                 <Nav.Link className="navitem">Our Company</Nav.Link>
+                </LinkContainer>
+
+                <LinkContainer to="/locations">
                 <Nav.Link className="navitem">Locations</Nav.Link>
+                </LinkContainer>
+
+                <LinkContainer to="/contact">
                 <Nav.Link className="navitem">Contact</Nav.Link>
+                </LinkContainer>
+                
               </Nav>
             </Navbar.Collapse>
           </Container>

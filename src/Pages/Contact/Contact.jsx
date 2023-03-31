@@ -75,7 +75,7 @@ function Contact() {
                             </div>
                     
                             <div className='mt-4 contactbutton'>
-                                <a href="" className='contactbtn'>Submit</a>
+                                <button className='contactbtn'>Submit</button>
                             </div>
                         </form>
                 </div>
