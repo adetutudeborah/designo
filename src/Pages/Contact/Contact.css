@@ -1,0 +1,95 @@
+.contactuscontainer{
+    margin: 5rem 1% 10rem;
+    color: var(--white-color);
+    height: 100%;
+    padding: 0 6rem;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+}
+
+.contactusinnercontainer{
+    padding: 11rem 0rem; 
+}
+
+.contactustext{
+    font-size: 3.5rem;
+}
+
+.contactussubtext{
+    font-size: 1rem;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+/* Contact Form */
+
+.contactformcontainer{
+    padding: 4rem 5rem;
+}
+
+.inputcontainer {
+    width: 100%;
+}
+
+input[type=text],
+input[type=email]
+ {
+   width: 100%; 
+   padding: 0.8rem 1rem;
+   box-sizing: border-box;
+   border-radius: 0;
+   background-color: var(--primary-color);
+   border: solid transparent;
+   outline: none;
+   border-bottom: 1px solid #ffff; 
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
+    background-color: var(--primary-color) !important;
+    color: var(--white-color);
+    border-radius: 0;
+    border: solid transparent;
+    outline: none;
+    border-bottom: 1px solid #ffff; 
+  }
+
+input::placeholder{
+    color: var(--white-color) !important;
+    opacity: 0.5;
+  }
+
+textarea{
+    width: 100%;
+    border-radius: 0;
+    background-color: var(--primary-color);
+    padding: 10px 16px;
+    color: var(--white-color);
+    resize: none !important;
+    border: solid transparent;
+    outline: 0;
+    border-bottom: 1px solid #ffff; 
+}
+
+textarea::placeholder{
+    color: var(--white-color) !important;
+    opacity: 0.5;
+  }
+
+.contactbutton{
+   text-align: right;
+}
+
+.contactbtn:link,
+.contactbtn:visited { 
+    font-family: var(  --default-font-family);
+    font-size: 1rem;
+    font-weight: 500;
+    background: var(--white-color);
+    color: var(--black-color);
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
