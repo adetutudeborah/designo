@@ -10,24 +10,24 @@ function Home() {
     <div className='container'>
 
          {/* Hero Section */}
-         <div className='header'>
-           <div className='headercontainer'>
+            <div className='hero'>
+                <div className='herocontainer'>
 
-                <div className='headercontainerinner'> 
-                    <h1 className='headertext'>Award-winning custom designs and digital branding solutions</h1>
-                    <p className='headersubtext'>With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, 
-                    and engaging brand experiences. Find out more about our services.</p>
-                      <Link to="/about">
-                        <a href='' className='headerbtn'>Learn more</a> 
-                      </Link>        
+                    <div className='herocontainerinner'> 
+                        <h1 className='herotext'>Award-winning custom designs and digital branding solutions</h1>
+                        <p className='herosubtext'>With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, 
+                        and engaging brand experiences. Find out more about our services.</p>
+                          <Link to="/about">
+                            <a href='' className='herobtn'>Learn more</a> 
+                          </Link>        
+                    </div>
+
+                    <div className='herocontainerimg'>
+                        <img src={images.phone} alt='image-hero-phone' className='heroimg'/>
+                    </div>
+                    
                 </div>
-
-                 <div className='headercontainerimg'>
-                    <img src={images.phone} alt='image-hero-phone' className='headerimg'/>
-                 </div>
-
-           </div>
-          </div> 
+            </div> 
 
           {/* Projects Section */}
 
