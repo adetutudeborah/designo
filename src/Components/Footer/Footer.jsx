@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import { Link } from 'react-router-dom';
 import './Footer.css';
 import images from "../../assets/images";
@@ -8,9 +8,9 @@ function Footer() {
         <div className='footercontainer'>
 
            <div className='brandcontainer'>
-              <div>
+              <div className='footerlogo'>
               <Link to="/">
-                 <img src={images.whitedesignologo} alt="logo" className="navlogo"/>
+                 <img src={images.whitedesignologo} alt="logo" className="footerlogo"/>
                </Link>  
               </div> 
  
