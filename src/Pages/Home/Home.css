@@ -388,7 +388,7 @@
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   
 .designocontainer{
     margin: 0 2rem;
@@ -442,7 +442,7 @@
 }
 
 .heroimg{
-  margin-left: 0;
+  margin-left: -2rem;
   text-align: center !important;
 }
 
@@ -461,11 +461,11 @@
 
 .featuretext{
   padding: 1rem 0;
-  text-align: left !important;
+  text-align: left;
 }
 
 .featuresubtext{
-  text-align: left !important;
+  text-align: left;
   padding: 0;
 }
 
@@ -531,10 +531,10 @@
   width: 100%;
   padding: 4rem 2rem 0rem;
 }
-
 }
 
-@media screen and (min-width: 320px) and (max-width: 485px) {
+@media screen and (max-width: 489px) {
+
 .designocontainer{
     margin: 0rem;
  }
@@ -579,21 +579,17 @@
 }
 
 .herocontainerimg {
-  border: 1px solid red;
   width: 100%;
   text-align: center;
   margin: 0;
   padding: 0;
+  position: relative;
   bottom: 100px;
-
+  left: -100px;
 }
 
 .heroimg{
-  margin-left: 0;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  right: 35%;
+  margin-left: 0rem;
 }
 
 /* Project section */
@@ -668,6 +664,7 @@ p:nth-child(1) {
 .featurecontent{
   padding: 0 3rem;
   margin: 1rem auto;
+  text-align: center;
 }
 
 .featuretext{
@@ -679,5 +676,20 @@ p:nth-child(1) {
   text-align: center;
   padding: 0;
 }
+}
 
+@media screen and (max-width: 375px) {
+  .herocontainerimg {
+  position: relative;
+  bottom: 100px;
+  left: -140px;
+}
+}
+
+@media screen and (max-width: 330px) {
+  .herocontainerimg {
+  position: relative;
+  bottom: 100px;
+  left: -150px;
+}
 }
