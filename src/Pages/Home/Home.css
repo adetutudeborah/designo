@@ -1,7 +1,8 @@
-.container {
-    padding: 0 8%;
-    width: 1200px;
-  }
+.designocontainer{
+   margin: 0 8rem;
+}
+
+/* Hero section */
 
 .hero {
   margin-top: 6rem;
@@ -65,11 +66,6 @@
   color: var(--white-color);
 }
 
-/* .herocontainerimg{
-  
-
-} */
-
 /* Project section */
 
 .projectcontainer {
@@ -91,6 +87,7 @@
         ),
     url('/src/assets/image-web-design-large.jpg');
     background-size: cover;
+    white-space: nowrap;
     height: 100%;
     grid-column: 1;
     grid-row: 1 / -1;
@@ -105,6 +102,7 @@
         ),
     url('/src/assets/image-app-design.jpg');
     background-size: cover;
+    white-space: nowrap;
     grid-column: 2;
     grid-row: 1;
     border-radius: 15px;
@@ -130,7 +128,6 @@
 
 .designproject:hover{
   background: var(--primary-color);
-    
 }
 
 .centered {
@@ -153,7 +150,7 @@
 .designcategory{
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 48px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -163,7 +160,7 @@
 .viewprojects{
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;    
+  font-size: 1rem;    
   letter-spacing: 5px;
   text-transform: uppercase;  
   color: var(--white-color);
@@ -178,27 +175,10 @@
 
 /* Features section */
 
-.featurescontainer{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.eachfeature{
-display: flex;
-flex-direction: column;
-}
-
-.featureimg{
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-}
-
 .featuretext{
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.1rem;
   line-height: 1;
   letter-spacing: 4px;
   padding: 3rem 0 2rem;
@@ -208,7 +188,493 @@ flex-direction: column;
 .featuresubtext{
   padding: 0 2rem;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
   text-align: center;
+}
+
+@media screen and (min-width: 998px) and (max-width: 1200px) {
+  .designocontainer{
+   margin: 0rem;
+ }
+  
+  /* Hero section */
+
+.hero {
+  margin-top: 4rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 15px;
+  max-height: 860px;
+  overflow: hidden;
+}
+
+.herocontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.herocontainerinner {
+  width: 100%;
+  padding: 4rem 6rem 0;
+}
+
+.herotext {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.herosubtext {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.herobutton{
+  text-align: center;
+}
+
+.herocontainerimg {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 100px;
+}
+
+.heroimg{
+  margin-left: -1rem;
+  text-align: center !important;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 998px) {
+
+  .designocontainer{
+    margin: 0rem;
+ }
+  
+  /* Hero section */
+
+.hero {
+  margin-top: 4rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 15px;
+  max-height: 860px;
+  overflow: hidden;
+}
+
+.herocontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.herocontainerinner {
+  width: 100%;
+  padding: 4rem 6rem 0;
+}
+
+.herotext {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.herosubtext {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.herobutton{
+  text-align: center;
+}
+
+.herocontainerimg {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 100px;
+}
+
+.heroimg{
+  margin-left: -2rem;
+  text-align: center !important;
+}
+
+/* Project section */
+
+.projectcontainer {
+  position: relative;
+  height: 100vh;
+  margin: 6rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.designone{
+    background-image: cover;
+    height: 100%;
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.designtwo{
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.designthree{
+  white-space: nowrap;
+  grid-column: 1 / -1;
+  grid-row: 3;
+  border-radius: 15px;
+}
+
+.designproject{
+  position: relative;
+}
+
+.designproject:hover{
+  background: var(--primary-color);
+}
+
+.designimg{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.designcategory{
+  font-size: 2rem;
+}
+
+.viewprojects{
+  font-size: 0.9rem;    
+}
+
+/* Features section */
+
+.eachfeature{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+  margin: 0 3rem;
+}
+
+.featurecontent{
+  padding: 0 2rem;
+  margin: 1rem auto;
+}
+
+.featuretext{
+  padding: 1rem 0;
+  text-align: left !important;
+}
+
+.featuresubtext{
+  text-align: left !important;
+  padding: 0;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  
+.designocontainer{
+    margin: 0 2rem;
+ }
+  
+  /* Hero section */
+
+.hero {
+  margin-top: 4rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 15px;
+  max-height: 860px;
+  overflow: hidden;
+}
+
+.herocontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.herocontainerinner {
+  width: 100%;
+  padding: 4rem 6rem 0;
+}
+
+.herotext {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.herosubtext {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.herobutton{
+  text-align: center;
+}
+
+.herocontainerimg {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 100px;
+}
+
+.heroimg{
+  margin-left: -5rem;
+  text-align: center !important;
+}
+
+/* Features section */
+
+.eachfeature{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+}
+
+.featurecontent{
+  padding: 0 2rem;
+  margin: 1rem auto;
+}
+
+.featuretext{
+  padding: 1rem 0;
+  text-align: left !important;
+}
+
+.featuresubtext{
+  text-align: left !important;
+  padding: 0;
+}
+
+/* Project section */
+
+.projectcontainer {
+  position: relative;
+  height: 100vh;
+  margin: 6rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.designone{
+    background-image: cover;
+    height: 100%;
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.designtwo{
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.designthree{
+  white-space: nowrap;
+  grid-column: 1 / -1;
+  grid-row: 3;
+  border-radius: 15px;
+}
+
+.designproject{
+  position: relative;
+}
+
+.designproject:hover{
+  background: var(--primary-color);
+}
+
+.designimg{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.designcategory{
+  font-size: 2rem;
+}
+
+.viewprojects{
+  font-size: 0.9rem;    
+}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 650px) {
+
+.herocontainerinner {
+  width: 100%;
+  padding: 4rem 2rem 0rem;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+.designocontainer{
+    margin: 0rem;
+ }
+  
+  /* Hero section */
+
+.hero {
+  margin-top: 4rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 0;
+  max-height: 865px;
+  overflow: hidden;
+}
+
+.herocontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.herocontainerinner {
+  width: 100%;
+  padding: 4rem 0.5rem 0;
+}
+
+.herotext {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.herosubtext {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.herobutton{
+  text-align: center;
+}
+
+.herocontainerimg {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 100px;
+}
+
+.heroimg{
+  margin-left: -5rem;
+  text-align: center;
+}
+
+/* Project section */
+
+.projectcontainer {
+  position: relative;
+  height: auto;
+  margin: 6rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.designone{
+  background-image: cover;
+  height: 100%;
+  white-space: nowrap;
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.designtwo{
+  white-space: nowrap;
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
+
+.designthree{
+  white-space: nowrap;
+  grid-column: 1 / -1;
+  grid-row: 3;
+  border-radius: 15px;
+}
+
+.designproject{
+  position: relative;
+  height: 250px;
+}
+
+.designproject:hover{
+  background: var(--primary-color);
+}
+
+.designimg{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.designcategory{
+  font-size: 1.8rem;
+}
+
+p:nth-child(1) {
+  font-weight: 400;
+}
+
+.viewprojects{
+  font-size: 0.9rem;    
+}
+
+/* Features section */
+
+.eachfeature{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  }
+  
+.featurecontent{
+  padding: 0 4.5rem;
+  margin: 1rem auto;
+}
+
+.featuretext{
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.featuresubtext{
+  text-align: center;
+  padding: 0;
+}
+
 }

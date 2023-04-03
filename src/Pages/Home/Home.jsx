@@ -6,8 +6,8 @@ import Getintouch from '../../Components/Getintouch/Getintouch';
 import { Link } from 'react-router-dom';
 
 function Home() {
-    return(
-    <div className='container'>
+    return( 
+    <div className='designocontainer'>
 
          {/* Hero Section */}
             <div className='hero'>
@@ -17,12 +17,14 @@ function Home() {
                         <h1 className='herotext'>Award-winning custom designs and digital branding solutions</h1>
                         <p className='herosubtext'>With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, 
                         and engaging brand experiences. Find out more about our services.</p>
+                        <div className='herobutton'>
                           <Link to="/about">
                             <a href='' className='herobtn'>Learn more</a> 
-                          </Link>        
+                          </Link>   
+                          </div>     
                     </div>
 
-                    <div className='herocontainerimg'>
+                    <div className='herocontainerimg text-center'>
                         <img src={images.phone} alt='image-hero-phone' className='heroimg'/>
                     </div>
                     
@@ -69,24 +71,42 @@ function Home() {
 
           {/* Features section */}
 
-          <div className='featurescontainer'> 
+          <div className='featurescontainer row'> 
 
-                <div className='eachfeature'>
+                <div className='eachfeature col-lg-4 mt-4 text-center'>
+                      <div>
                         <img src={images.passionateimg} alt='passionate-img' className='featureimg'/>
+                      </div>
+
+                      <div className='featurecontent'>
                         <h4 className='featuretext'>Passionate</h4>
                         <p className='featuresubtext'>Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge art, design, and technology into exciting new solutions.</p> 
+                      </div>
+                                 
                 </div>
 
-                <div className='eachfeature'>
-                    <img src={images.resourcefulimg} alt='resourceful-img' className='featureimg'/>
-                    <h4 className='featuretext'>Resourceful</h4>
-                    <p className='featuresubtext'>Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer collaboration. It guarantees superior results that fulfill our clients’ needs.</p>
+                <div className='eachfeature col-lg-4 mt-4 text-center'>
+                      <div>
+                          <img src={images.resourcefulimg} alt='resourceful-img' className='featureimg'/>
+                      </div>
+
+                      <div className='featurecontent'>
+                          <h4 className='featuretext'>Resourceful</h4>
+                          <p className='featuresubtext'>Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer collaboration. It guarantees superior results that fulfill our clients’ needs.</p>
+                      </div>
+                         
                 </div>
 
-                <div className='eachfeature'>
-                    <img src={images.friendlyimg} alt='friendly-img' className='featureimg'/>
-                    <h4 className='featuretext'>Friendly</h4>
-                    <p className='featuresubtext'> We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide.</p>
+                <div className='eachfeature col-lg-4 mt-4 text-center'>
+                      <div>
+                        <img src={images.friendlyimg} alt='friendly-img' className='featureimg'/>
+                      </div>
+
+                      <div className='featurecontent'>
+                        <h4 className='featuretext'>Friendly</h4>
+                        <p className='featuresubtext'> We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide.</p>
+                      </div>
+              
                 </div>
 
           </div>

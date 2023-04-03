@@ -11,8 +11,8 @@ import images from "../../assets/images";
 function Navigationbar() {
       return (
       <div className='navcontainer'>
-        <Navbar expand="lg"  className="navbar-main">
-          <Container>
+        <Navbar expand="md"  className="navbar-main">
+
             <Navbar.Brand href="/"> 
               <img src={images.logo} alt="logo" className="navlogo"/>
             </Navbar.Brand>
@@ -29,12 +29,12 @@ function Navigationbar() {
                 </LinkContainer>
 
                 <LinkContainer to="/contact">
-                <Nav.Link className="navitem">Contact</Nav.Link>
+                <Nav.Link className="navitem navitemcontact">Contact</Nav.Link>
                 </LinkContainer>
                 
               </Nav>
             </Navbar.Collapse>
-          </Container>
+
         </Navbar>
       </div>  
       );
