@@ -1,10 +1,10 @@
 .touchsection{
     position: relative;
-    margin-bottom: -6rem;   
+    margin-bottom: -12rem;   
 }
 
 .touchcontainer{
-    margin: 6rem 0 0;
+    margin: 5rem 0;
     padding: 6rem 7rem 5rem;
     background-color: var(--primary-color);
     border-radius: 15px;
@@ -26,25 +26,26 @@
 .touchtext{
     font-style: normal;
     font-weight: 500;
-    font-size: 50px;
+    font-size: 3rem;
+    white-space: nowrap;
 }
 
 .touchsubtext{
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.8;
 }
 
 .touchbtn:link,
 .touchbtn:visited { 
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   background-color: var(--white-color);
   color: var(--black-color);
   text-decoration: none;
   display: inline-block;
-  padding: 16px 20px;
+  padding: 1rem 1.2rem;
   border-radius: 9px;
   text-transform: uppercase;
 }
@@ -52,4 +53,55 @@
 .touchbtn:hover{
     color: var(--white-color);
     background: var(--secondary-color);
+}
+
+
+@media screen and (max-width: 990px) {
+
+.touchcontainer{
+    padding: 5rem 0rem;
+}
+
+.touchinnercontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.touchheader{
+   width: 100%;
+   text-align: center;
+}
+
+.touchtext{
+    white-space: nowrap;
+}
+
+.touchsubtext{
+    padding: 0 10rem 1rem;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.touchsubtext{
+    padding: 0 8rem 1rem;
+}
+    
+}
+
+@media screen and (max-width: 520px) { 
+.touchcontainer{
+    margin: 5rem 1.5rem;
+}
+
+.touchtext{
+    font-size: 2.5rem;
+}
+
+.touchsubtext{
+    padding: 0 2rem 1rem;
+}
+
 }

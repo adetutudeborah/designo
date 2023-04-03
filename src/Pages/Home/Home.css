@@ -193,9 +193,9 @@
   text-align: center;
 }
 
-@media screen and (min-width: 998px) and (max-width: 1200px) {
+@media screen and (min-width: 990px) and (max-width: 1460px) {
   .designocontainer{
-   margin: 0rem;
+    margin: 0 2rem;
  }
   
   /* Hero section */
@@ -251,10 +251,10 @@
 }
 }
 
-@media screen and (min-width: 769px) and (max-width: 998px) {
+@media screen and (min-width: 769px) and (max-width: 990px) {
 
   .designocontainer{
-    margin: 0rem;
+    margin: 0 2rem;
  }
   
   /* Hero section */
@@ -535,7 +535,7 @@
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 485px) {
 .designocontainer{
     margin: 0rem;
  }
@@ -589,8 +589,7 @@
 }
 
 .heroimg{
-  margin-left: -5rem;
-  text-align: center;
+  text-align: center !important;
 }
 
 /* Project section */
@@ -659,11 +658,11 @@ p:nth-child(1) {
 .eachfeature{
   display: flex;
   flex-direction: column;
-  padding-bottom: 1rem;
+  padding-bottom: 0.6rem;
   }
   
 .featurecontent{
-  padding: 0 4.5rem;
+  padding: 0 3rem;
   margin: 1rem auto;
 }
 
