@@ -48,9 +48,9 @@ function Appdesign() {
 
              {/* Header section */}
 
-                <div className='designheader'>
+                <div className='designhero text-center'>
                         <h2 className='designtext text-center mb-3'>App Design</h2>
-                        <p className='designsubtext text-center'>  Our mobile designs bring intuitive digital solutions  <br /> to your customers right at their fingertips.</p>
+                        <p className='designsubtext text-center'>  Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.</p>
                 </div>
 
             {/* Web Projects Section */}

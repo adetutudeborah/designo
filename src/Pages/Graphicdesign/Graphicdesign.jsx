@@ -34,9 +34,9 @@ function Graphicdesign() {
 
              {/* Header section */}
 
-                <div className='designheader'>
+                <div className='designhero text-center'>
                         <h2 className='designtext text-center mb-3'>Graphic design</h2>
-                        <p className='designsubtext text-center'>We deliver eye-catching branding materials that are  <br /> tailored to meet your business objectives.</p>
+                        <p className='designsubtext text-center'>We deliver eye-catching branding materials that are tailored to meet your business objectives.</p>
                 </div>
 
             {/* Web Projects Section */}

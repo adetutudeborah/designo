@@ -51,13 +51,13 @@ function Webdesign() {
     ]);
 
     return(
-        <div className='designocontainer'>
+        <>
 
              {/* Header section */}
 
-                <div className='designheader text-center'>
+                <div className='designhero text-center'>
                         <h2 className='designtext text-center mb-3'>Web Design</h2>
-                        <p className='designsubtext text-center'>We build websites that serve as powerful marketing tools <br /> and bring memorable brand experiences.</p>
+                        <p className='designsubtext text-center'>We build websites that serve as powerful marketing tools and bring memorable brand experiences.</p>
                 </div>
 
             {/* Web Projects Section */}
@@ -118,7 +118,7 @@ function Webdesign() {
                 <div> 
                     <Getintouch />
                 </div>
-        </div>
+        </>
     )
 }
 

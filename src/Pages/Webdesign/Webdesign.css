@@ -1,6 +1,10 @@
+.container{
+    --bs-gutter-x: 0rem !important;
+}
+
 /* Header */
 
-.designheader{
+.designhero{
     margin: 0;
     margin-bottom: 6rem;
     padding: 5rem 0rem;
@@ -14,9 +18,10 @@
 }
 
 .designsubtext{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 2;
     margin-bottom: 0;
+    padding: 0 24rem;
 }
 
 /* Projects Section */
@@ -153,7 +158,11 @@
     font-weight: bolder;
 }
 
-@media screen and (min-width: 990px) and (max-width: 1300px) {
+@media screen and (min-width: 990px) and (max-width: 1400px) {
+
+.designsubtext{
+    padding: 0 18rem;
+}
 
 .projectinfo{
    padding: 1rem;
@@ -171,6 +180,10 @@
 
 @media screen and (width: 992px) {
 
+.designsubtext{
+    padding: 0 8rem;
+}
+
 .project{
     display: flex;
     width: 100% !important;
@@ -179,6 +192,10 @@
 
 
 @media screen and (min-width: 700px) and (max-width: 992px) {
+
+.designsubtext{
+    padding: 0 8rem;
+}
 
 /* Projects Section */
 
@@ -241,6 +258,10 @@
 
 @media screen and (max-width: 700px) { 
 
+.designsubtext{
+    padding: 0 2rem;
+}
+
 .otherprojectcontainer {
     margin: 5rem auto;
     display: flex;
@@ -284,7 +305,8 @@
     padding: 1rem; 
 }
 
-.designheader{
+.designhero{
+    margin: 0;
     margin-bottom: 3rem;
     padding: 5rem 0rem;
     border-radius: 0px;
@@ -296,6 +318,7 @@
 
 .designsubtext{
     font-size: 1rem;
+    padding: 0 1rem;
 }
 
 /* Other Projects section */
