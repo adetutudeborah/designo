@@ -82,31 +82,28 @@ function Appdesign() {
                 {/* Other Projects section */}
 
                 <div className='otherprojectcontainer text-center'>
-                    <div className='row '>
 
-                        <div className='col-lg-6 otherproject appproject'>
+                        <div className='otherproject firstproject'>
                             
                             <div className='otherprojectinner text-center'>
-                                <p className='projectcategory'>Web design</p>
+                                <p className='projecttype'>Web design</p>
                             <Link to="/webdesign">
-                                <p className='viewproject'>View projects <span className='designicon'>&rsaquo;</span></p>
+                                <p className='seeproject'>View projects <span className='designicon'>&rsaquo;</span></p>
                             </Link>  
                             </div>
                         
                         </div>
-
-                        <div className='col-lg-6 otherproject graphicproject'>
+ 
+                        <div className='otherproject thirdproject'>
 
                             <div className='otherprojectinner text-center'>
-                                <p className='projectcategory'>Graphic design</p>
+                                <p className='projecttype'>Graphic design</p>
                             <Link to="/graphicdesign">
-                                <p className='viewproject'>View projects <span className='projecticon'>&rsaquo;</span></p>
+                                <p className='seeproject'>View projects <span className='projecticon'>&rsaquo;</span></p>
                             </Link>  
                             </div>
                         
                         </div>
-
-                    </div>
                 </div>
 
               {/* Let's talk about your project */}

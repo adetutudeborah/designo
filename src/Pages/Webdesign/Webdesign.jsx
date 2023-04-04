@@ -86,11 +86,11 @@ function Webdesign() {
                     </div>
                 </div>  
 
-                {/* Other Projects section */}
+                {/* Other Projects section */} 
 
                 <div className='otherprojectcontainer text-center'>
 
-                        <div className='otherproject firstproject'>
+                        <div className='otherproject secondproject'>
                             
                             <div className='otherprojectinner text-center'>
                                 <p className='projecttype'>App design</p>
@@ -101,7 +101,7 @@ function Webdesign() {
                         
                         </div>
 
-                        <div className='otherproject secondproject'>
+                        <div className='otherproject thirdproject'>
 
                             <div className='otherprojectinner text-center'>
                                 <p className='projecttype'>Graphic design</p>

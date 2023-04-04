@@ -81,6 +81,21 @@
 .firstproject{
     background-image:
     linear-gradient(
+          rgba(34, 34, 34, 0.6),
+          rgba(34, 34, 34, 0.6)
+        ),
+    url('/src/assets/image-web-design-large.jpg');
+    background-size: cover;
+    border-radius: 15px;
+    white-space: nowrap;
+    width: 50%;
+    height: 50vh;
+    margin: 0 1rem;
+}
+
+.secondproject{
+    background-image:
+    linear-gradient(
             rgba(34, 34, 34, 0.6),
             rgba(34, 34, 34, 0.6)
         ),
@@ -93,7 +108,7 @@
     margin: 0 1rem;
 }
 
-.secondproject{
+.thirdproject{
     background-image:
     linear-gradient(
             rgba(34, 34, 34, 0.6),
@@ -195,13 +210,19 @@
     flex-direction: column;
   }
 
-  .firstproject{
+.firstproject{
     width: 98%;
     height: 45vh;
     margin: 1rem;
 }
 
 .secondproject{
+    width: 98%;
+    height: 45vh;
+    margin: 1rem;
+}
+
+.thirdproject{
     width: 98%;
     height: 45vh;
     margin: 1rem;
@@ -232,6 +253,12 @@
 }
 
 .secondproject{
+    width: 95%;
+    height: 45vh;
+    margin: 1rem;
+}
+
+.thirdproject{
     width: 95%;
     height: 45vh;
     margin: 1rem;
@@ -278,13 +305,19 @@
     flex-direction: column;
   }
 
-  .firstproject{
+.firstproject{
     width: 89%;
     height: 45vh;
     margin: 1rem;
 }
 
 .secondproject{
+    width: 89%;
+    height: 45vh;
+    margin: 1rem;
+}
+
+.thirdproject{
     width: 89%;
     height: 45vh;
     margin: 1rem;
