@@ -18,28 +18,42 @@
     margin-right: 0;
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
+
+.navcontainer{
+    margin: 0 2rem;
+}
+
+}
+
+@media screen and (max-width: 768px) {
 
 .navcontainer{
     margin: 0 3rem;
 }
 
-/* .navitem{
-    font-size: 1rem !important;
-    margin: 0 12px;
-    padding: 0 !important;
 }
 
-.navitemcontact{
-    margin-right: 0;
-    padding-right: 0;
-} */
+@media screen and (max-width: 480px) {
 
+.navlogo{
+    width: 180px;
 }
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
 
 .navcontainer{
     margin: 0 1.5rem;
 }
+
+}
+
+@media screen and (max-width: 320px) {
+
+.navlogo{
+    width: 150px;
+}
+
+.navcontainer{
+    margin: 0rem;
+}
+
 }

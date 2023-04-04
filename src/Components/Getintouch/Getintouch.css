@@ -105,3 +105,18 @@
 }
 
 }
+
+@media screen and (max-width: 350px) { 
+.touchcontainer{
+    margin: 5rem 1.5rem;
+}
+
+.touchtext{
+    font-size: 2rem;
+}
+
+.touchsubtext{
+    padding: 0 1rem 1rem;
+}
+
+}
