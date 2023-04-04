@@ -5,7 +5,7 @@
 /* Hero section */
 
 .hero {
-  margin-top: 6rem;
+  margin-top: 0rem;
   background-color: var(--primary-color);
   color: #fff;
   border-radius: 15px; 
@@ -189,7 +189,6 @@
   /* Hero section */
 
 .hero {
-  margin-top: 4rem;
   background-color: var(--primary-color);
   color: #fff;
   border-radius: 15px;
@@ -247,7 +246,6 @@
   /* Hero section */
 
 .hero {
-  margin-top: 4rem;
   background-color: var(--primary-color);
   color: #fff;
   border-radius: 15px;
@@ -385,7 +383,6 @@
   /* Hero section */
 
 .hero {
-  margin-top: 4rem;
   background-color: var(--primary-color);
   color: #fff;
   border-radius: 15px;
@@ -530,7 +527,6 @@
   /* Hero section */
 
 .hero {
-  margin-top: 4rem;
   background-color: var(--primary-color);
   color: #fff;
   border-radius: 0;

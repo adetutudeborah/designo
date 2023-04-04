@@ -1,7 +1,7 @@
 /* Header */
 
 .designheader{
-    margin: 3rem 0 6rem;
+    margin-bottom: 6rem;
     padding: 5rem 0rem;
     background-color: var(--primary-color);
     border-radius: 15px;
