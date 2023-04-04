@@ -18,8 +18,7 @@ function Home() {
                         <p className='herosubtext'>With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, 
                         and engaging brand experiences. Find out more about our services.</p>
                         <div className='herobutton'>
-                          <Link to="/about">
-                            <a href='' className='herobtn'>Learn more</a> 
+                          <Link to="/about" className='herobtn'>Learn more
                           </Link>   
                           </div>     
                     </div>

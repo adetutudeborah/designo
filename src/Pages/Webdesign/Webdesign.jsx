@@ -50,8 +50,8 @@ function Webdesign() {
         },
     ]);
 
-    return(
-        <>
+    return( 
+        <div className='designocontainer'>
 
              {/* Header section */}
 
@@ -118,7 +118,7 @@ function Webdesign() {
                 <div> 
                     <Getintouch />
                 </div>
-        </>
+        </div>
     )
 }
 

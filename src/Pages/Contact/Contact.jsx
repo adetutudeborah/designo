@@ -4,7 +4,7 @@ import Location from '../../Components/Location/Location';
 
 function Contact() {
     return(
-        <div className='container'>
+        <div className='designocontainer'>
 
             <div className='contactuscontainer'>
                 <div className="row">
@@ -13,8 +13,8 @@ function Contact() {
 
                         <h2 className='contactustext mb-4'>Contact us</h2>
                         <p className='contactussubtext'> 
-                        Ready to take it to the next level? Let’s talk about your project or <br /> idea and find out how we can help your business grow. 
-                        If you are <br /> looking for unique digital experiences that’s relatable to your <br /> users, drop us a line.
+                        Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow. 
+                        If you are  looking for unique digital experiences that’s relatable to your users, drop us a line.
                         </p>
                         
                     </div>
@@ -70,7 +70,7 @@ function Contact() {
                                     rows="6" 
                                     placeholder="Your Message" 
                                     name="Message" 
-                                    required>
+                                    required> 
                                 </textarea>
                             </div>
                     

@@ -44,7 +44,7 @@ function Appdesign() {
     ]);
 
     return(
-        <div className='container'>
+        <div className='designocontainer'>
 
              {/* Header section */}
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Location.css'; 
-import images from '../../assets/images';
+import images from '../../assets/images'; 
 
 function Location() { 
     return(
@@ -9,7 +9,7 @@ function Location() {
 
             <div className='row text-center'>
 
-                <div className='col-lg-4 aboutlocation'>
+                <div className='col-lg-4 mb-5 aboutlocation'>
                   <img src={images.canada} alt="canada-location-img" className='img-fluid aboutlocationimg'/>  
                 <p className='aboutlocationname'>Canada</p>
                 <Link to="/locations">
@@ -17,7 +17,7 @@ function Location() {
                     </Link>        
                 </div>
 
-                <div className='col-lg-4 aboutlocation'>
+                <div className='col-lg-4 mb-4 aboutlocation'>
                   <img src={images.australia} alt="australia-location-img" className='img-fluid aboutlocationimg'/>
                 <p className='aboutlocationname'>Australia</p>
                     <Link to="/locations">
