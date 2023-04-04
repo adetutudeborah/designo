@@ -1,6 +1,7 @@
 /* Header */
 
 .designheader{
+    margin: 0;
     margin-bottom: 6rem;
     padding: 5rem 0rem;
     background-color: var(--primary-color);
@@ -294,7 +295,7 @@
 }
 
 .designsubtext{
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 /* Other Projects section */
