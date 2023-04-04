@@ -27,9 +27,9 @@
     margin-bottom: 0.5rem;
 }
 
-p:nth-child(1) {
+/* p:nth-child(1) {
     font-weight: bold;
-  }
+  } */
 
 .locationinnercontainer{
     display: grid;

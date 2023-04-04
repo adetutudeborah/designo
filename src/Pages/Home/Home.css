@@ -8,7 +8,7 @@
   margin-top: 6rem;
   background-color: var(--primary-color);
   color: #fff;
-  border-radius: 15px;
+  border-radius: 15px; 
   max-height: 700px;
   overflow: hidden;
 }
@@ -135,20 +135,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* background: linear-gradient(
-    rgba(34, 34, 34, 0.6),
-    rgba(34, 34, 34, 0.6)
-  ); */
-}
-
-.designimg{
-  width: 100%;
-  height: auto;
-  border-radius: 15px;
 }
 
 .designcategory{
-  font-style: normal;
   font-weight: 500;
   font-size: 2.5rem;
   line-height: 48px;
@@ -157,9 +146,8 @@
   color: var(--white-color);
 }
 
-.viewprojects{
-  font-style: normal;
-  font-weight: 500;
+.viewprojects{ 
+  font-weight: 400;
   font-size: 1rem;    
   letter-spacing: 5px;
   text-transform: uppercase;  
@@ -643,10 +631,6 @@
 
 .designcategory{
   font-size: 1.5rem;
-}
-
-p:nth-child(1) {
-  font-weight: 400;
 }
 
 .viewprojects{

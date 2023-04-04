@@ -1,8 +1,8 @@
 /* Header */
 
 .designheader{
-    margin: 6rem 0;
-    padding: 5rem 7rem;
+    margin: 3rem 0 6rem;
+    padding: 5rem 0rem;
     background-color: var(--primary-color);
     border-radius: 15px;
     color: var(--white-color);
@@ -21,7 +21,7 @@
 /* Projects Section */
 
 .designprojects{
-    margin: 0rem 0;
+    margin: 0rem;
 }
 
 .projectimg{
@@ -63,11 +63,12 @@
 
 .otherprojectcontainer {
     margin: 10rem auto;
+    display: flex;
+    flex-direction: row;
   }
 
 .otherproject{
     position: relative;
-    height: 50vh;
 }
 
 .otherprojectinner {
@@ -77,7 +78,7 @@
     transform: translate(-50%, -50%);
 }
 
-.appproject{
+.firstproject{
     background-image:
     linear-gradient(
             rgba(34, 34, 34, 0.6),
@@ -86,11 +87,13 @@
     url('/src/assets/image-app-design.jpg');
     background-size: cover;
     border-radius: 15px;
-    width: 47% !important;
-    margin: 1rem;
+    white-space: nowrap;
+    width: 50%;
+    height: 50vh;
+    margin: 0 1rem;
 }
 
-.graphicproject{
+.secondproject{
     background-image:
     linear-gradient(
             rgba(34, 34, 34, 0.6),
@@ -100,32 +103,32 @@
     background-size: cover;
     border-radius: 15px;
     white-space: nowrap;
-    width: 47% !important;
-    margin: 1rem;
-    margin-right: 0;
+    width: 50%;
+    height: 50vh;
+    margin: 0 1rem;
 }
 
-.projectcategory{
+.projecttype{
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 48px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--white-color);
 }
 
-.viewproject{
+.seeproject{
     font-style: normal;
-    font-weight: 500;
-    font-size: 15px;    
+    font-weight: 400;
+    font-size: 1rem;    
     letter-spacing: 5px;
     text-transform: uppercase;  
     color: var(--white-color);
     text-align: center;
 }
 
-.viewproject:hover{
+.seeproject:hover{
     color: var(--primary-color);
 }
 
@@ -133,3 +136,168 @@
     color: var(--primary-color);
     font-weight: bolder;
 }
+
+@media screen and (min-width: 990px) and (max-width: 1300px) {
+
+.projectinfo{
+   padding: 1rem;
+}
+
+.projecttype{
+    font-size: 2rem;
+}
+
+.seeproject{
+    font-size: 0.9rem;    
+}
+}
+
+
+@media screen and (width: 992px) {
+
+.project{
+    display: flex;
+    width: 100% !important;
+}
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 992px) {
+
+/* Projects Section */
+
+.designprojects{
+    margin: 0rem;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+}
+
+.projectimg{
+    width: 150%;
+    border-radius: 10px 0 0 10px;
+}
+
+.projectinfo{
+    width: 70%;
+    background-color: var(--tertiary-color);
+    border-radius: 0 10px 10px 0px;
+    padding: 9rem 2rem; 
+}
+
+/* Other projects */
+
+.otherprojectcontainer {
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstproject{
+    width: 98%;
+    height: 45vh;
+    margin: 1rem;
+}
+
+.secondproject{
+    width: 98%;
+    height: 45vh;
+    margin: 1rem;
+}
+
+.projecttype{
+    font-size: 2.2rem;
+}
+
+.seeproject{
+    font-size: 1rem;    
+}
+
+}
+
+@media screen and (max-width: 700px) { 
+
+.otherprojectcontainer {
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+.firstproject{
+    width: 95%;
+    height: 45vh;
+    margin: 1rem;
+}
+
+.secondproject{
+    width: 95%;
+    height: 45vh;
+    margin: 1rem;
+}
+
+.projecttype{
+    font-size: 2rem;
+}
+
+.seeproject{
+    font-size: 0.9rem;    
+}
+}
+
+@media screen and (max-width: 480px) { 
+
+.designprojects{
+    margin: 0rem 1rem;
+}
+
+.projectinfo{
+    padding: 1rem; 
+}
+
+.designheader{
+    margin-bottom: 3rem;
+    padding: 5rem 0rem;
+    border-radius: 0px;
+}
+
+.designtext{
+    font-size: 2.5rem;
+}
+
+.designsubtext{
+    font-size: 0.8rem;
+}
+
+/* Other Projects section */
+
+.otherprojectcontainer {
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstproject{
+    width: 89%;
+    height: 45vh;
+    margin: 1rem;
+}
+
+.secondproject{
+    width: 89%;
+    height: 45vh;
+    margin: 1rem;
+}
+
+.projecttype{
+    font-size: 1.6rem;
+}
+
+.seeproject{
+    font-size: 0.8rem;    
+}
+
+}
+
+    

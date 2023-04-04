@@ -51,11 +51,11 @@ function Webdesign() {
     ]);
 
     return(
-        <div className='container'>
+        <div className='designocontainer'>
 
              {/* Header section */}
 
-                <div className='designheader'>
+                <div className='designheader text-center'>
                         <h2 className='designtext text-center mb-3'>Web Design</h2>
                         <p className='designsubtext text-center'>We build websites that serve as powerful marketing tools <br /> and bring memorable brand experiences.</p>
                 </div>
@@ -74,7 +74,7 @@ function Webdesign() {
                                 <img src={item.image} alt={item.alt} className='img-fluid projectimg' />
                             </div>
 
-                            <div className='projectinfo'>
+                            <div className='projectinfo text-center'>
                                 <h4 className='projecttitle text-center mt-3 mb-3'>{item.title}</h4>
                                 <p className='projectdecription text-center'>{item.description}</p>
                             </div>
@@ -89,31 +89,28 @@ function Webdesign() {
                 {/* Other Projects section */}
 
                 <div className='otherprojectcontainer text-center'>
-                    <div className='row '>
 
-                        <div className='col-lg-6 otherproject appproject'>
+                        <div className='otherproject firstproject'>
                             
                             <div className='otherprojectinner text-center'>
-                                <p className='projectcategory'>App design</p>
+                                <p className='projecttype'>App design</p>
                             <Link to="/appdesign">
-                                <p className='viewproject'>View projects <span className='designicon'>&rsaquo;</span></p>
+                                <p className='seeproject'>View projects <span className='designicon'>&rsaquo;</span></p>
                             </Link>  
                             </div>
                         
                         </div>
 
-                        <div className='col-lg-6 otherproject graphicproject'>
+                        <div className='otherproject secondproject'>
 
                             <div className='otherprojectinner text-center'>
-                                <p className='projectcategory'>Graphic design</p>
+                                <p className='projecttype'>Graphic design</p>
                             <Link to="/graphicdesign">
-                                <p className='viewproject'>View projects <span className='projecticon'>&rsaquo;</span></p>
+                                <p className='seeproject'>View projects <span className='projecticon'>&rsaquo;</span></p>
                             </Link>  
                             </div>
                         
                         </div>
-
-                    </div>
                 </div>
 
               {/* Let's talk about your project */}
