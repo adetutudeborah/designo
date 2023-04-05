@@ -4,9 +4,9 @@ import images from '../../assets/images';
 import Getintouch from '../../Components/Getintouch/Getintouch';  
 import Location from '../../Components/Location/Location';
 
-function About() {
+function About() { 
     return(
-        <div className='container'>
+        <div className='designocontainer'>
 
             {/* About Hero Section */}
 

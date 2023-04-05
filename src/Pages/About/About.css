@@ -2,7 +2,6 @@
 
 .aboutherocontainer{
     display: flex;
-    margin-top: 5rem;
     margin-bottom: 10rem;
     color: var(--white-color);
     height: 100%;
@@ -90,4 +89,226 @@
 
 .companyvalueimg{
     border-radius: 0 15px 15px 0;
+}
+
+/* Media queries */
+@media screen and (max-width: 1200px) { 
+.abouthero{
+    padding: 6rem 3rem 0;
+}
+
+.aboutteamheader{
+    padding: 3rem;
+}
+
+.companyvalueheader{
+    padding: 3rem;
+ 
+}
+
+}
+
+@media screen and (max-width: 950px) { 
+
+.aboutherocontainer{
+    margin-bottom: 8rem;
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr lfr;
+}
+
+.abouthero{
+    text-align: center;
+    padding: 5rem 3rem;
+    border-radius: 0px 0px 15px 15px;
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.aboutheroimg{
+    border-radius: 15px 10px 0px 0px;
+    width: 100%;
+    max-width: 100%;
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.aboutherotext{
+    font-size: 2.5rem;
+}
+
+.aboutherosubtext{
+    font-size: 1rem;
+}
+
+/* About Team Section */
+
+.aboutteamcontainer{
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr lfr;
+}
+
+.aboutteamheader{
+    text-align: center;
+    padding: 5rem 2rem;
+    border-radius: 0px 0px 15px 15px;
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.aboutteamtext{
+    font-size: 2.5rem;
+}
+
+.aboutteamdescription{
+    font-size: 1rem;
+}
+
+.aboutteamimg{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 15px 10px 0px 0px;
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+  /* Company value section */
+
+.companyvaluecontainer{
+    margin-bottom: 8rem;
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr lfr;
+}
+
+.companyvalueheader{
+    text-align: center;
+    padding: 5rem 2rem;
+    border-radius: 0px 0px 15px 15px;
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.companyvaluetext{
+    font-size: 2.5rem;
+}
+
+.companyvaluesubtext{
+    font-size: 1rem;
+}
+
+.companyvalueimg{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 15px 10px 0px 0px;
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+}
+
+@media screen and (max-width: 480px) { 
+
+.aboutherocontainer{
+    margin-bottom: 0rem;
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr lfr;
+}
+
+.abouthero{
+    text-align: center;
+    padding: 5rem 3rem;
+    border-radius: 0px;
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.aboutheroimg{
+    border-radius: 0px;
+    width: 100%;
+    max-width: 100%;
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.aboutherotext{
+    font-size: 2.5rem;
+}
+
+.aboutherosubtext{
+    font-size: 1rem;
+}
+
+/* About Team Section */
+
+.aboutteamcontainer{
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr lfr;
+}
+
+.aboutteamheader{
+    text-align: center;
+    padding: 5rem 2rem;
+    border-radius: 0px;
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.aboutteamtext{
+    font-size: 2.5rem;
+}
+
+.aboutteamdescription{
+    font-size: 1rem;
+}
+
+.aboutteamimg{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0px;
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+  /* Company value section */
+
+.companyvaluecontainer{
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr lfr;
+}
+
+.companyvalueheader{
+    text-align: center;
+    padding: 5rem 2rem;
+    border-radius: 0px;
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.companyvaluetext{
+    font-size: 2.5rem;
+}
+
+.companyvaluesubtext{
+    font-size: 1rem;
+}
+
+.companyvalueimg{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0px;
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
 }
