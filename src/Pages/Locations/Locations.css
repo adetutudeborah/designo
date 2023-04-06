@@ -1,5 +1,5 @@
 .locationpagecontainer{
-   margin: 5rem 0 8rem;
+   margin-bottom: 8rem;
 }
 
 .locationinfo,
@@ -19,10 +19,7 @@
     justify-content: space-between;
 }
 
-.address p{
-    margin-bottom: 0.5rem;
-}
-
+.address p,
 .contact p{
     margin-bottom: 0.5rem;
 }
@@ -33,6 +30,7 @@
   }
 
 .locationinnercontainer{
+    margin-bottom: 3rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
@@ -66,4 +64,153 @@
     height: 326px;
     grid-column: 1;
     grid-row: 1;
+}
+
+@media screen and (max-width: 1200px) { 
+
+.designocontainer {
+    margin-left: 1rem;
+    margin-right: 2rem !important;
+}
+
+.locationpagecontainer{
+    margin-bottom: 5rem;
+}
+
+.locationinfo,
+.australiainfo{
+    text-align: center;
+    border-radius: 15px;
+    padding: 5rem 1rem;
+}
+
+.locationname{
+    font-size: 2rem;
+}
+
+.companylocation{
+    display: flex;
+    flex-direction: column;
+}
+
+.address p,
+.contact p{
+    margin-bottom: 0.5rem;
+}
+
+.contact{
+    margin-top: 1rem;
+}
+
+.locationinnercontainer{
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.locationinfo{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.locationmap{
+    border-radius: 15px;
+    width: 96vw;
+    height: 50vh;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+/* Australia layout */
+
+.australiainfo{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.australiamap{
+    border-radius: 15px;
+    width: 96vw;
+    height: 50vh;
+    grid-column: 1;
+    grid-row: 1;
+}
+}
+
+
+@media screen and (max-width: 480px) { 
+
+.designocontainer {
+    margin-left: 0rem;
+    margin-right: 0rem !important;
+}
+
+
+.locationpagecontainer{
+    margin-bottom: 5rem;
+}
+
+.locationinfo,
+.australiainfo{
+    text-align: center;
+    border-radius: 0px;
+    padding: 5rem 1rem;
+}
+
+.locationname{
+    font-size: 1.8rem;
+}
+
+.companylocation{
+    display: flex;
+    flex-direction: column;
+}
+
+.address p,
+.contact p{
+    margin-bottom: 0.5rem;
+}
+
+.contact{
+    margin-top: 1rem;
+}
+
+.locationinnercontainer{
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 0px;
+    row-gap: 0px;
+}
+
+.locationinfo{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.locationmap{
+    border-radius: 0px;
+    width: 100vw;
+    height: 40vh;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+/* Australia layout */
+
+.australiainfo{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.australiamap{
+    border-radius: 0px;
+    width: 100vw;
+    height: 40vh;
+    grid-column: 1;
+    grid-row: 1;
+}
+
 }

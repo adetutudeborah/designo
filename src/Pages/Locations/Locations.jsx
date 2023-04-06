@@ -17,7 +17,7 @@ function Locations() {
 
             <div className='locationpagecontainer'> 
               
-                <div className='mt-4 locationinnercontainer canada'>
+                <div className='locationinnercontainer canada'>
 
                        {/* Location info */}
 
@@ -65,7 +65,7 @@ function Locations() {
                         </div>
                 </div>
 
-                 <div className='mt-5 locationinnercontainer australia'>
+                 <div className='locationinnercontainer australia'>
 
                        {/* Location info */}
 
@@ -113,7 +113,7 @@ function Locations() {
                         </div>
                 </div>
 
-                 <div className='mt-5 locationinnercontainer united-kingdom'>
+                 <div className='locationinnercontainer united-kingdom'>
 
                        {/* Location info */}
 

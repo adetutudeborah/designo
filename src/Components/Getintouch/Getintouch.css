@@ -75,6 +75,7 @@
 
 .touchtext{
     white-space: nowrap;
+    font-size: 2.8rem;
 }
 
 .touchsubtext{
@@ -88,6 +89,10 @@
 .touchsubtext{
     padding: 0 6rem 1rem;
 }
+
+.touchtext{
+    font-size: 2.6rem;
+}
     
 }
 
@@ -97,7 +102,7 @@
 }
 
 .touchtext{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 .touchsubtext{
@@ -112,7 +117,7 @@
 }
 
 .touchtext{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .touchsubtext{
