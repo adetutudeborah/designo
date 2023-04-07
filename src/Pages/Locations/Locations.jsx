@@ -2,8 +2,6 @@ import React from 'react';
 import './Locations.css';
 import Getintouch from '../../Components/Getintouch/Getintouch'; 
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
-// import { MapContainer, TileLayer, useMap } from 'react-leaflet'
-// import { MarkerLayer, Marker } from "react-leaflet-marker";
 import 'leaflet/dist/leaflet.css';
 
 const canada = [43.64419484706138, -79.3945608610694]
@@ -48,7 +46,6 @@ function Locations() {
                                 zoom={13} 
                                 scrollWheelZoom={false}
                                 className='locationmap'
-                                // style={{  width: '450px', height: '326px'}}
                             >         
                                 <TileLayer
                                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -96,7 +93,6 @@ function Locations() {
                                     zoom={13} 
                                     scrollWheelZoom={false}
                                     className='australiamap'
-                                    // style={{  width: '450px', height: '326px'}}
                                 >         
                                     <TileLayer
                                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -144,7 +140,6 @@ function Locations() {
                                     zoom={13} 
                                     scrollWheelZoom={false}
                                     className='locationmap'
-                                    // style={{  width: '450px', height: '326px'}}
                                 >         
                                     <TileLayer
                                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

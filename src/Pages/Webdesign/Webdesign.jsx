@@ -74,7 +74,7 @@ function Webdesign() {
                                 <img src={item.image} alt={item.alt} className='img-fluid projectimg' />
                             </div>
 
-                            <div className='projectinfo text-center'>
+                            <div className='projectinfo text-center'> 
                                 <h4 className='projecttitle text-center mt-3 mb-3'>{item.title}</h4>
                                 <p className='projectdecription text-center'>{item.description}</p>
                             </div>

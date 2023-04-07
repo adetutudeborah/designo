@@ -43,11 +43,11 @@ function Footer() {
                 </div>
 
                 <div className='socialmediaicons'>
-                    <span className='socialicon'><i class="fa-brands fa-facebook"></i></span>
-                    <span className='socialicon'><i class="fa-brands fa-youtube"></i></span>
-                    <span className='socialicon'><i class="fa-brands fa-twitter"></i></span>
-                    <span className='socialicon'><i class="fa-brands fa-pinterest"></i></span>
-                    <span className='socialicon'><i class="fa-brands fa-instagram"></i></span>
+                    <span className='socialicon'><i className="fa-brands fa-facebook"></i></span>
+                    <span className='socialicon'><i className="fa-brands fa-youtube"></i></span>
+                    <span className='socialicon'><i className="fa-brands fa-twitter"></i></span>
+                    <span className='socialicon'><i className="fa-brands fa-pinterest"></i></span>
+                    <span className='socialicon'><i className="fa-brands fa-instagram"></i></span>
                 </div>
 
            </div>
