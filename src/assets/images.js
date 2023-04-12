@@ -1,5 +1,6 @@
 import logo from "./brandlogo.png"; 
 import phone from './image-hero-phone.png';
+import oval from './oval.png';
 import passionateimg from './passionate-img.png';
 import resourcefulimg from './resourceful-img.png';
 import friendlyimg from './friendly-img.png';
@@ -17,6 +18,7 @@ import unitedkingdom from './about/unitedkingdom-img.png';
 const images = {
   logo,
   phone,
+  oval,
   passionateimg,
   resourcefulimg,
   friendlyimg,

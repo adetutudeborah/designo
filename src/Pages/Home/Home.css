@@ -9,8 +9,9 @@
   background-color: var(--primary-color);
   color: #fff;
   border-radius: 15px; 
-  max-height: 700px;
+  max-height: 900px;
   overflow: hidden;
+  position: relative;
 }
 
 .herocontainer {
@@ -18,19 +19,25 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 10rem 7rem 0rem
 }
 
 .herocontainerinner {
   width: 50%;
-  padding: 10rem 0rem 0 7rem;
+  padding-bottom: 10rem;
 }
 
 .herocontainerimg {
   width: 50%;
+  text-align: right;
+  justify-content: right;
 }
 
 .heroimg{
-  margin-left: 5rem;
+  margin-left: 14rem;
+  width: 100%;
+  max-width: 65%;
+  height: 100%;
 }
 
 .herotext {
@@ -44,7 +51,7 @@
 .herosubtext {
   font-size: 1.1rem;
   line-height: 1.8;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   font-weight: 300;
 }
 
@@ -63,6 +70,12 @@
 .herobtn:hover{
   background-color: var(--secondary-color);
   color: var(--white-color);
+}
+
+.ovalimage{
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 /* Project section */
@@ -204,11 +217,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 4rem 6rem 0rem;
 }
 
 .herocontainerinner {
   width: 100%;
-  padding: 4rem 6rem 0;
+  padding-bottom: 5rem;
 }
 
 .herotext {
@@ -229,14 +243,15 @@
 .herocontainerimg {
   width: 100%;
   text-align: center !important;
-  margin: 0;
-  padding: 0;
-  bottom: 100px;
 }
 
 .heroimg{
   margin-left: 0;
   text-align: center !important;
+}
+
+.ovalimage{
+  display: none;
 }
 }
 
@@ -261,11 +276,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 4rem 6rem 0rem
 }
 
 .herocontainerinner {
   width: 100%;
-  padding: 4rem 6rem 0;
+  padding-bottom: 5rem;
 }
 
 .herotext {
@@ -286,15 +302,16 @@
 .herocontainerimg {
   width: 100%;
   text-align: center;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  bottom: 100px;
 }
 
 .heroimg{
-  margin-left: -2rem;
+  margin-left: 0;
   text-align: center !important;
+  max-width: 70%;
+}
+
+.ovalimage{
+  display: none;
 }
 
 /* Project section */
@@ -398,11 +415,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 4rem 2rem 0rem
 }
 
 .herocontainerinner {
   width: 100%;
-  padding: 4rem 6rem 0;
+  padding-bottom: 5rem;
 }
 
 .herotext {
@@ -423,16 +441,18 @@
 .herocontainerimg {
   width: 100%;
   text-align: center;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  bottom: 100px;
 }
 
 .heroimg{
-  margin-left: -2rem;
+  margin-left: 0;
   text-align: center !important;
+  max-width: 80%;
 }
+
+.ovalimage{
+  display: none;
+}
+
 
 /* Features section */
 
@@ -517,7 +537,7 @@
 
 .herocontainerinner {
   width: 100%;
-  padding: 4rem 2rem 0rem;
+  padding-bottom: 3rem;
 }
 }
 
@@ -533,7 +553,7 @@
   background-color: var(--primary-color);
   color: #fff;
   border-radius: 0;
-  max-height: 865px;
+  max-height: 880px;
   overflow: hidden;
 }
 
@@ -542,11 +562,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 4rem 0.5rem 0rem
 }
 
 .herocontainerinner {
   width: 100%;
-  padding: 4rem 0.5rem 0;
+  padding-bottom: 4rem;
 }
 
 .herotext {
@@ -568,15 +589,15 @@
 .herocontainerimg {
   width: 100%;
   text-align: center;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  bottom: 100px;
-  left: -100px;
 }
 
 .heroimg{
   margin-left: 0rem;
+  max-width: 80%;
+}
+
+.ovalimage{
+  display: none;
 }
 
 /* Project section */
@@ -661,21 +682,7 @@
 }
 }
 
-@media screen and (max-width: 375px) {
-.herocontainerimg {
-  position: relative;
-  bottom: 100px;
-  left: -140px;
-}
-}
-
 @media screen and (max-width: 330px) {
-
-.herocontainerimg {
-  position: relative;
-  bottom: 100px;
-  left: -150px;
-}
 
 .designcategory {
   font-size: 1rem;

@@ -26,11 +26,16 @@ function Home() {
 
                     </div>
 
-                    <div className='herocontainerimg text-center'>
+                    <div className='herocontainerimg'>
                         <img src={images.phone} alt='image-hero-phone' className='heroimg'/>
                     </div>
                     
                 </div>
+              
+              <div className="ovalimage">
+                 <img src={images.oval} alt='oval-image' className='ovalimage'/>
+              </div>
+              
             </div> 
 
           {/* Projects Section */}

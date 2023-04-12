@@ -14,8 +14,8 @@ function Getintouch() {
                 </div>
 
                 <div>
-                  <Link to="/contact"> 
-                    <a href='' className='touchbtn'> Get in touch</a> 
+                  <Link to="/contact" className='touchbtn'> 
+                     Get in touch
                   </Link>  
                 </div>
             </div>
